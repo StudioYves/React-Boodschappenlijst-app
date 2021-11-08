@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.header {
+  background-color: #383838;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  padding: 40px;
+}
+
+.main {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  gap: 80px;
+  background-color: #e6e6e6;
+  padding: 50px 0 200px 0;
+}
+
+.grocery-list .list{
+  background-color: rgb(251, 209, 255);
+}
+
+.grocery-list .list :nth-child(2n) {
+  background-color: rgb(245, 187, 250);
+}
+
+.list {
+  padding-inline-start: 0px;
+}
+
+.list-item {
+  list-style: none;
+  padding: 15px;
+  text-align: left;
+  width: 300px;
+}
+
+.inputfield {
+  background-color:#e6e6e6;
+}
+
+.input-box {
+  margin-right: 20px;
+  padding: 10px 40px 10px 10px;
+}
+
+.shoppingcart {
+    background-color: rgb(102, 173, 150);
+  }
+
+.shoppingcart :nth-child(2n){
+    background-color: rgb(147, 204, 186);
+  }
+
+.button-inputfield {
+  background-color: #0400ff;
+  border: 3px;
+  border-color: #818181;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #fff
+}
+
+.button-emptycart {
+  background-color: #0400ff;
+  border-radius: 30px;
+  border: 0px;
+  padding: 10px 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-self: flex-start;
+}
+
+
+
+
+
+
